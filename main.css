@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+.chat {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 40vh;
+    height: 25vh;
+    border: 2px inset rgb(205, 232, 255);
+    border-radius: 1vh;
+    line-height: 25vh;
+    font-size: 3vh;
+    background-color: aliceblue;
+}
+
+.momo {
+    position: absolute;
+    width: 26vh;
+    border-radius: 100vh;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.let {
+    padding: 2vh 5vh;
+    position: absolute;
+    background-color: azure;
+    border: 1px inset gray;
+    border-radius: 0.5vh;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
